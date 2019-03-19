@@ -1,0 +1,10 @@
+INTRO
+clone- an existing reposiory
+git init - to start new git repository
+git log - history of all changes
+commit - every change in the history of project
+git branch - to see the current branch
+
+COMMANDS
+git init .:initializes the current folder as a git repository
+git status: shows which branch you are on, the commits made till now 
