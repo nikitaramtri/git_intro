@@ -9,5 +9,9 @@ COMMANDS
 git init .:initializes the current folder as a git repository
 git status: shows which branch you are on, the commits made till now 
 git add <file_name>: to add file to the current repository
-git log: shows all commits
-git commit: to commit changes to the repository	
+git log: shows all commits (git log --oneline: in concise form)
+git commit: to commit changes to the repository	[git commit -m "<git_message>"]
+git diff: tells you what changes have occured between what is not staged for committing (not added) and that are committed
+#creating branches
+git checkout -b <name_of_branch>: to create a new branch
+git branch: displays the branches existing and the branch we are currently working on (*)
