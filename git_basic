@@ -8,3 +8,6 @@ git branch - to see the current branch
 COMMANDS
 git init .:initializes the current folder as a git repository
 git status: shows which branch you are on, the commits made till now 
+git add <file_name>: to add file to the current repository
+git log: shows all commits
+git commit: to commit changes to the repository	
