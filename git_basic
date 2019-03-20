@@ -19,3 +19,9 @@ git checkout <branch_name>: to switch to branch'<branch_name>'
 git merge <branch_name>: to merge branch <branch_name> into the branch we currently are on
 #displaying log in a more proper branch-wise graphical manner
 git log --oneline --color --graph --decorate
+git config --global alias.fulltree "log --color --oneline --graph --decorate" : to avoid having to write such log commands repeatedly we gave an alias name for easy use now we can give the foll command 'git fulltree'
+
+#to publish this git repository on the internet
+git remote add origin https://github.com/nikitaramtri/git_intro
+git push origin master
+git push origin -all: to push all the branches
