@@ -8,7 +8,7 @@ git branch - to see the current branch
 COMMANDS
 git init .:initializes the current folder as a git repository
 git status: shows which branch you are on, the commits made till now 
-git add <file_name>: to add file to the current repository
+git add <file_name>: to add file to the current repository (git add -A: to add all files to the directory)
 git log: shows all commits (git log --oneline: in concise form)
 git commit: to commit changes to the repository	[git commit -m "<git_message>"]
 git diff: tells you what changes have occured between what is not staged for committing (not added) and that are committed
@@ -25,3 +25,10 @@ git config --global alias.fulltree "log --color --oneline --graph --decorate" : 
 git remote add origin https://github.com/nikitaramtri/git_intro
 git push origin master
 git push origin -all: to push all the branches
+
+#creating pull request 
+fork the desired repository from the given source into your own repository
+clone this repository
+open with VS, make the required changes, commit them
+git push origin master (to push the commits to your github repository)
+create pull request (to add my code to the original repository from the source)
