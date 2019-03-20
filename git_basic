@@ -17,3 +17,5 @@ git checkout -b <name_of_branch>: to create a new branch
 git branch: displays the branches existing and the branch we are currently working on (*)
 git checkout <branch_name>: to switch to branch'<branch_name>'
 git merge <branch_name>: to merge branch <branch_name> into the branch we currently are on
+#displaying log in a more proper branch-wise graphical manner
+git log --oneline --color --graph --decorate
