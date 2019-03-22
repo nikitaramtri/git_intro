@@ -32,3 +32,24 @@ clone this repository
 open with VS, make the required changes, commit them
 git push origin master (to push the commits to your github repository)
 create pull request (to add my code to the original repository from the source)
+
+#general 
+folder -repository we are working on
+staging area - the files or lines of code we added but not committed through git add
+history - list of all commits
+suppose the foll is the graph for a repository
+		b1-b2-b3-b4
+		/
+s0-s1-s2
+		\c1-c2-c3
+
+let X be the commit id of a particular state. To restore to that state use
+git checkout X
+to add the changes between the state (with commit id X) and it's previous state to the current branch
+git cherry-pick X 
+git log X will show the log upto state (with commit id X)
+# : represents hash val
+commit id Cn= #(delta(Sn-1,n) + Cn-1 + Mn)
+where delta(Sn-1,n) represents changes (additions and deletions) between (n-1)th and nth commit
+Cn-1 is the (n-1)th commit id
+Mn represents the meta data i.e. author, date and time of commit
