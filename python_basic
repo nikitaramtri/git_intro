@@ -1,0 +1,66 @@
+# print()
+# input()
+# type()
+# int()
+# float()
+# str()
+# f'xyz {a} xyz {b}' : formatted string with {} placeholders
+# len()
+# string.upper()
+# string.lower()
+# string.title()
+# string.find()
+# string.replace(,)
+# 'xyz' in string : returns boolean value
+# print(10/3) gives 3.33333
+# print(10//3) gives 3
+# a ** b gives a^b
+# round(num)
+# abs(num)
+#import math: for importing math modules for using functions like floor, ceil, factorial
+#if <condition>:
+#	<statements if true>
+#else:
+#	<statements if false>
+#
+# while <condition>:
+# 	<statements if condition true>
+# 	increment
+# else:
+# 	<statements if false>
+#
+# for item in <list/string>:
+# 	<statements to be executed>
+#operations on list
+#list.append(x): to add x to the end of the list
+#list.insert(index, x): to insert x at index index
+#list.remove(x): to remove x from the list
+#list.clear(): to empty the list
+#list.pop(): to remove the last element in the list
+#list.index(x): returns the index of first occurance of x in the lis
+# x in list_name: gives boolean val
+#list.count(x): gives the count of no. of occurences of x in the list
+#list.sort(): sorts the list in ascending order
+#list.reverse(): reverses the list
+#list_new = list.copy(): to make a copy of the list
+# tuple: unmutable list, no insertion, deletion, modification allowed
+# tupple = ()
+# tupple.count(x): no. of occurences of x in tupple
+# tupple.index(x): index of first occurance of x in tupple 
+#unpacking a list or tupple
+# eg: coordinates = (1,2,3) (or [1,2,3])
+# x,y,z = coordinates: makes x store coordinates[0], y coordinates[1] and z coordinates[2]
+#
+# dictionary: stores info in key-value pairs
+# dict ={
+# 	"key1": "val1",
+# 	"key2": "val2",
+# 	"key3": "val3"
+# }
+# dict["key4"]="val4"#setting/adding new key-val pair
+# for accessing elements of dictionary
+# dict["key_i"] or
+# dict.get("key_i")
+#dict.get("key_i", "<def_string>"): to return <def_string> if "key_i" is not a key value in the dictionary
+
+# string.split(" "): splits the string into array of words
